@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="songitemplaybrand"><img src="logo.png" alt="Spotify"></li>
+            <li>
+                Home
+            </li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="songlist">
+            <h1>best of my song__ my collection</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="shinchan.jpg" alt="1">
+                    <span class="songName">Shinchan</span>
+                    <span class="songlistplay"><span class="time">1:03<i id="0" class="songitemplay far fa-play-circle"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img src="doremon.jpg" alt="2">
+                    <span class="songName">Zindagi Sawar du</span>
+                    <span class="songlistplay"><span class="time">2:05<i id="1"class="songitemplay far fa-play-circle"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img src="doremon.jpg" alt="3">
+                    <span class="songName">Jeena Ka shi dhang</span>
+                    <span class="songlistplay"><span class="time">1:00<i id="2" class="songitemplay far fa-play-circle"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img src="ben.jpg" alt="4">
+                    <span class="songName">Ben10 Starting Song</span>
+                    <span class="songlistplay"><span class="time">1:01<i id="3" class="songitemplay far fa-play-circle"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img src="hattori.jpg" alt="5">
+                    <span class="songName">Ninja Hattori Starting Song</span>
+                    <span class="songlistplay"><span class="time">1:13<i id="4" class="songitemplay far fa-play-circle"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img src="hattori.jpg" alt="6">
+                    <span class="songName">Ninja Hattori Ending Song</span>
+                    <span class="songlistplay"><span class="time">1:03<i id="5" class="songitemplay far fa-play-circle"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img src="perman.png" alt="7">
+                    <span class="songName">Perman Starting Song</span>
+                    <span class="songlistplay"><span class="time">1:11<i id="6" class="songitemplay far fa-play-circle"></i>
+                        </span></span>
+                </div>
+            <div class="songitem">
+                <img src="perman.png" alt="8">
+                <span class="songName">Perman Ending Song</span>
+                <span class="songlistplay"><span class="time">1:15<i id="7" class="songitemplay far fa-play-circle"></i>
+                    </span></span>
+        </div>
+        <div class="songitem">
+            <img src="kochi.jpg" alt="9">
+            <span class="songName"> Kochikame Song</span>
+            <span class="songlistplay"><span class="time">1:18<i  id="8" class="songitemplay far fa-play-circle"></i>
+                </span></span>
+    </div>
+        <div class="songitem">
+            <img src="return.jpg" alt="10">
+            <span class="songName"> The return of the hanuman Song</span>
+            <span class="songlistplay"><span class="time">4:22<i id="9" class="songitemplay far fa-play-circle"></i>
+                </span></span></div>
+            </div>    
+    </div>
+    <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="mybar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawsome icons -->
+            <i class="fas fa-2x fa-step-backward" id="previous">
+            </i>
+            <i class="fa fa-2x fa-play-circle" id="masterPlay" >
+            </i><i class="fas fa-2x fa-step-forward" id="next">
+            </i>
+        </div>
+        <div class="songinfo"><img src="playing.gif" width="49px" alt="1" id="gif"><span id="masterSongName"></span></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="http://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
